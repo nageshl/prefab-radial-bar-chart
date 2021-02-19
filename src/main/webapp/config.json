@@ -1,0 +1,51 @@
+{
+  "displayName" : "RadialBarChart",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ ]
+  },
+  "properties" : {
+    "chartdata" : {
+      "type" : "object",
+      "displayName" : "ChartData",
+      "description" : "chartData should contain name and value attributes",
+      "bindable" : "in-bound",
+      "isList" : true,
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "chartheight" : {
+      "type" : "number",
+      "displayName" : "chartHeight",
+      "description" : "height of chart",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "chartwidth" : {
+      "type" : "number",
+      "displayName" : "chartWidth",
+      "description" : "width of chart",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "chartcolors" : {
+      "type" : "string",
+      "displayName" : "chartColors",
+      "description" : "Pass the color codes in array.",
+      "bindable" : "in-bound",
+      "isList" : true,
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    }
+  },
+  "events" : { },
+  "methods" : { }
+}
